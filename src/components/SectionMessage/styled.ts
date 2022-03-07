@@ -169,7 +169,7 @@ export const MessageContent = styled.p`
 `;
 
 export const RedBox = styled.div`
-  height: 70%;
+  height: 60%;
   background-color: ${({ theme }) => theme.pallete.background.red};
   align-self: flex-end;
 
