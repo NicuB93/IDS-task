@@ -4,9 +4,12 @@ export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
   height: 800px;
+  padding-top: 180px;
+  padding-bottom: 100px;
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     grid-template-columns: 1fr;
+    padding-top: 50px;
   }
 `;
 

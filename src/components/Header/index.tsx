@@ -8,7 +8,6 @@ export const Header = () => {
         <S.HeadTitle>Welcome to the insert some lorem copy here</S.HeadTitle>
         <S.HeadDescription>Vision, Learning, Collaboration.</S.HeadDescription>
         <S.HeadMotto>
-          {" "}
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </S.HeadMotto>
       </S.ColumnLeft>
