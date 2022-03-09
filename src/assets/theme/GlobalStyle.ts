@@ -29,6 +29,11 @@ export const GlobalStyle = createGlobalStyle`
         src: url("/fonts/IdealSans-Thin.otf")
     }
 
+  @font-face {
+        font-family: 'Helvetica';
+        src: url("/fonts/Helvetica.ttf")
+    }
+
   
 
   body {

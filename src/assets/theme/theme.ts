@@ -12,6 +12,9 @@ export const theme = {
       blueMarin: "#1996c3",
       green: "#8dc63f",
       red: "#d84e30",
+      gray: "#F0F0F0",
+      blue: "#003C82",
+      white: "#ffffff",
     },
   },
 };

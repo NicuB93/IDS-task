@@ -16,7 +16,7 @@ export const HeaderContainer = styled.section`
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     grid-template-columns: 1fr;
-    padding: 36px 12px;
+    padding: 50px 12px;
   }
 `;
 
