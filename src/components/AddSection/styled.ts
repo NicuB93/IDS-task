@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AddSectionContainer = styled.section`
   display: flex;
@@ -6,7 +6,7 @@ export const AddSectionContainer = styled.section`
   padding: 100px 410px 120px 410px;
 
   button {
-    background-color: ${({ theme }) => theme.pallete.background.orange};
+    background-color: ${({ theme }) => theme.pallet.background.orange};
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -32,7 +32,7 @@ export const AddSectionContainer = styled.section`
 export const AddSectionParagraph = styled.p`
   margin: 0;
   margin-top: 5px;
-  font-family: "Ideal Sans Light";
+  font-family: 'Ideal Sans Light';
   font-style: italic;
   font-size: 18px;
   line-height: 27px;

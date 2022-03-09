@@ -1,27 +1,30 @@
-import Link from "next/link";
-import * as S from "./styled";
-import { Button } from "../Button";
-import { CloseButton } from "../CloseButton";
-import { SvgLogo } from "../SvgLogo";
-import { navbarItems } from "./mock";
+import { FC } from 'react';
+import Link from 'next/link';
 
-export const NavBar = () => {
+import { Button } from '../Button';
+import { CloseButton } from '../CloseButton';
+import { SvgLogo } from '../SvgLogo';
+
+import { Props } from './NavBar';
+import { data } from './mock';
+
+import * as S from './styled';
+
+export const NavBar: FC<Props> = () => {
   return (
-    <S.NavContainer>
-      <S.NavContent>
+    <S.Header>
+      <S.Container>
         <SvgLogo />
-        <S.NavList>
-          {navbarItems.map((e) => (
-            <S.NavItem key={e.id}>
-              <Link href="#">
-                <a>{e.content}</a>
-              </Link>
-            </S.NavItem>
+        <S.Nav>
+          {data.map(({ id, href, title }) => (
+            <Link {...{ href }} key={id} passHref>
+              <S.Link>{title}</S.Link>
+            </Link>
           ))}
-        </S.NavList>
+        </S.Nav>
         <Button content="DOWNLOAD PDF" />
         <CloseButton />
-      </S.NavContent>
-    </S.NavContainer>
+      </S.Container>
+    </S.Header>
   );
 };

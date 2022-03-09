@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AboutContainer = styled.section`
   height: 560px;
   padding-left: 285px;
   padding-right: 180px;
-  background-color: ${({ theme }) => theme.pallete.background.gray};
+  background-color: ${({ theme }) => theme.pallet.background.gray};
   display: grid;
   grid-template-columns: 1fr 2fr;
-  color: ${({ theme }) => theme.pallete.text.secondary};
+  color: ${({ theme }) => theme.pallet.text.secondary};
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     height: 500px;
@@ -21,13 +21,12 @@ export const AboutContainer = styled.section`
     padding: 50px 0;
     padding-left: 12px;
 
-    background: ${({ theme }) =>
-      `linear-gradient(90deg, ${theme.pallete.background.gray} 50%, ${theme.pallete.background.white} 50%)`};
+    background: ${({ theme }) => `linear-gradient(90deg, ${theme.pallet.background.gray} 50%, ${theme.pallet.background.white} 50%)`};
   }
 `;
 
 export const About = styled.div`
-  background-color: ${({ theme }) => theme.pallete.background.blue};
+  background-color: ${({ theme }) => theme.pallet.background.blue};
   display: flex;
   flex-direction: column;
   padding: 0 5rem;
@@ -43,7 +42,7 @@ export const About = styled.div`
 `;
 
 export const AboutHead = styled.h6`
-  font-family: "Ideal Sans Light";
+  font-family: 'Ideal Sans Light';
   font-size: 16px;
   line-height: 24px;
   padding-top: 5rem;
@@ -54,7 +53,7 @@ export const AboutHead = styled.h6`
 `;
 
 export const AboutTitle = styled.h3`
-  font-family: "Ideal Sans Light";
+  font-family: 'Ideal Sans Light';
   font-size: 32px;
   line-height: 40px;
 
@@ -79,7 +78,7 @@ export const AboutImg = styled.div`
 
 export const AboutParagraphContainer = styled.div`
   min-height: 360px;
-  background-color: ${({ theme }) => theme.pallete.background.blueMarin};
+  background-color: ${({ theme }) => theme.pallet.background.blueMarin};
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     min-height: fit-content;
@@ -90,7 +89,7 @@ export const AboutParagraph = styled.p`
   margin: 0;
   padding: 5rem 6rem;
   position: relative;
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
   font-weight: 100;
   font-size: 18px;
   line-height: 27px;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const GridContainer = styled.section`
   display: grid;
@@ -43,7 +43,7 @@ export const ImgDiv = styled.div`
 
 export const MarinBox = styled.div`
   height: 516px;
-  background-color: ${({ theme }) => theme.pallete.background.blueMarin};
+  background-color: ${({ theme }) => theme.pallet.background.blueMarin};
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     height: 355px;
@@ -51,8 +51,8 @@ export const MarinBox = styled.div`
 `;
 
 export const GreenBox = styled.div`
-  background-color: ${({ theme }) => theme.pallete.background.green};
-  color: ${({ theme }) => theme.pallete.text.secondary};
+  background-color: ${({ theme }) => theme.pallet.background.green};
+  color: ${({ theme }) => theme.pallet.text.secondary};
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -70,7 +70,7 @@ export const ImageTitle = styled.h5`
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  font-family: "Ideal Sans Medium";
+  font-family: 'Ideal Sans Medium';
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 20px;
@@ -84,9 +84,9 @@ export const ImageDescription = styled.div`
   gap: 1rem;
 
   a {
-    font-family: "Ideal Sans Thin";
+    font-family: 'Ideal Sans Thin';
     text-decoration: none;
-    color: ${({ theme }) => theme.pallete.text.secondary};
+    color: ${({ theme }) => theme.pallet.text.secondary};
   }
 `;
 
@@ -139,9 +139,9 @@ export const Message = styled.div`
 `;
 
 export const MessageTitle = styled.h1`
-  color: ${({ theme }) => theme.pallete.text.primary};
+  color: ${({ theme }) => theme.pallet.text.primary};
   font-size: 50px;
-  font-family: "Ideal Sans Medium";
+  font-family: 'Ideal Sans Medium';
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 30px;
@@ -155,7 +155,7 @@ export const MessageHead = styled.p`
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 18px;
-    font-family: "Mercury G2";
+    font-family: 'Mercury G2';
     font-style: italic;
   }
 `;
@@ -163,7 +163,7 @@ export const MessageHead = styled.p`
 export const MessageContent = styled.p`
   font-size: 18px;
   line-height: 27px;
-  font-family: "Ideal Sans Light";
+  font-family: 'Ideal Sans Light';
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 16px;
@@ -172,7 +172,7 @@ export const MessageContent = styled.p`
 
 export const RedBox = styled.div`
   height: 60%;
-  background-color: ${({ theme }) => theme.pallete.background.red};
+  background-color: ${({ theme }) => theme.pallet.background.red};
   align-self: flex-end;
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {

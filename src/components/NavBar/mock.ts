@@ -1,14 +1,17 @@
-export const navbarItems = [
+export const data = [
   {
-    id: "nav-item1",
-    content: "About US",
+    id: 1,
+    title: 'About US',
+    href: '/',
   },
   {
-    id: "nav-item2",
-    content: "Knowledge Management Journey",
+    id: 2,
+    title: 'Knowledge Management Journey',
+    href: '/',
   },
   {
-    id: "nav-item3",
-    content: "Knowledge Solutions",
+    id: 3,
+    title: 'Knowledge Solutions',
+    href: '/',
   },
 ];

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Button = styled.button`
   background-color: transparent;
@@ -8,11 +8,11 @@ export const Button = styled.button`
   font-size: 24px;
 
   :before {
-    content: "✕";
+    content: '✕';
   }
 
   :hover {
-    background-color: ${({ theme }) => theme.pallete.background.hover};
+    background-color: ${({ theme }) => theme.pallet.background.hover};
   }
 
   @media only screen and (min-width: ${({ theme }) => theme.breakpoints.md}) {
