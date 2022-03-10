@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const AboutContainer = styled.section`
   height: 560px;
@@ -21,7 +21,8 @@ export const AboutContainer = styled.section`
     padding: 50px 0;
     padding-left: 12px;
 
-    background: ${({ theme }) => `linear-gradient(90deg, ${theme.pallet.background.gray} 50%, ${theme.pallet.background.white} 50%)`};
+    background: ${({ theme }) =>
+      `linear-gradient(90deg, ${theme.pallet.background.gray} 50%, ${theme.pallet.background.white} 50%)`};
   }
 `;
 
@@ -42,7 +43,7 @@ export const About = styled.div`
 `;
 
 export const AboutHead = styled.h6`
-  font-family: 'Ideal Sans Light';
+  font-family: "Ideal Sans Light";
   font-size: 16px;
   line-height: 24px;
   padding-top: 5rem;
@@ -53,7 +54,7 @@ export const AboutHead = styled.h6`
 `;
 
 export const AboutTitle = styled.h3`
-  font-family: 'Ideal Sans Light';
+  font-family: "Ideal Sans Light";
   font-size: 32px;
   line-height: 40px;
 
@@ -89,7 +90,7 @@ export const AboutParagraph = styled.p`
   margin: 0;
   padding: 5rem 6rem;
   position: relative;
-  font-family: 'Helvetica';
+  font-family: Helvetica;
   font-weight: 100;
   font-size: 18px;
   line-height: 27px;

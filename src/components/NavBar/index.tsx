@@ -1,14 +1,13 @@
-import { FC } from 'react';
-import Link from 'next/link';
+import { FC } from "react";
+import Link from "next/link";
+import { Button } from "../Button";
+import { CloseButton } from "../CloseButton";
+import { SvgLogo } from "../SVGs/SvgLogo";
 
-import { Button } from '../Button';
-import { CloseButton } from '../CloseButton';
-import { SvgLogo } from '../SvgLogo';
+import { Props } from "./NavBar";
+import { data } from "./mock";
 
-import { Props } from './NavBar';
-import { data } from './mock';
-
-import * as S from './styled';
+import * as S from "./styled";
 
 export const NavBar: FC<Props> = () => {
   return (
