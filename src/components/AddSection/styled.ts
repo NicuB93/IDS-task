@@ -23,7 +23,7 @@ export const AddSectionContainer = styled.section`
   }
 `;
 
-export const AddButton = styled.button<ButtonProps>`
+export const ShowButton = styled.button<ButtonProps>`
   background-color: ${({ theme }) => theme.colors.orange};
   border: 0;
   color: ${({ theme }) => theme.colors.white};
@@ -45,7 +45,6 @@ export const AddButton = styled.button<ButtonProps>`
     transition: transform 0.5s ease;
     transform: ${(props) =>
       props.isActive ? `translate(100%) rotate(90deg)` : ``};
-    /* transform: ${(props) => (props.isActive ? `translate(10px)` : ``)}; */
   }
 `;
 

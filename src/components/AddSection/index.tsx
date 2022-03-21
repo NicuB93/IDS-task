@@ -20,7 +20,7 @@ export const AddSection = () => {
 
   return (
     <S.AddSectionContainer>
-      <S.AddButton onClick={() => setShowMore(!showMore)} isActive={showMore}>
+      <S.ShowButton onClick={() => setShowMore(!showMore)} isActive={showMore}>
         <svg
           width="19"
           height="19"
@@ -45,7 +45,7 @@ export const AddSection = () => {
             fill="white"
           />
         </svg>
-      </S.AddButton>
+      </S.ShowButton>
       <S.AddSectionParagraph>{showContent}</S.AddSectionParagraph>
     </S.AddSectionContainer>
   );
