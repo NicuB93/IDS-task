@@ -1,9 +1,15 @@
+import { FC } from "react";
 import * as S from "./styled";
 
 type ButtonProps = {
   content?: string;
 };
 
-export const Button = ({ content }: ButtonProps) => {
-  return <S.Button>{content}</S.Button>;
+export const Button: FC<ButtonProps> = ({ content, children }) => {
+  return (
+    <S.Button className="button">
+      {content}
+      {children}
+    </S.Button>
+  );
 };

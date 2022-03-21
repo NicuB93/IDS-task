@@ -7,29 +7,24 @@ export const SectionMessage = () => {
   return (
     <S.GridContainer>
       <S.ColumnLeft>
-        <S.MarinBox />
-        <S.BoxContainer>
-          <S.ImgDiv>
-            <Image
-              layout="fill"
-              src="/cardImg.png"
-              alt="section"
-              objectFit="cover"
-              priority={true}
-            />
-          </S.ImgDiv>
-          <S.GreenBox>
-            <S.ImageTitle>{sectionContent.imgTitle}</S.ImageTitle>
-            <S.ImageDescription>
-              <S.ImageParagraph>
-                {sectionContent.imgDescription}
-              </S.ImageParagraph>
-              <Link href="mailto:lordVoldemort@example.com">
-                <a>lordVoldemort@example.com</a>
-              </Link>
-            </S.ImageDescription>
-          </S.GreenBox>
-        </S.BoxContainer>
+        <S.ImgDiv>
+          <Image
+            layout="fill"
+            src="/assets/img/cardImg.png"
+            alt="section"
+            objectFit="cover"
+            priority={true}
+          />
+        </S.ImgDiv>
+        <S.GreenBox>
+          <S.ImageTitle>{sectionContent.imgTitle}</S.ImageTitle>
+          <S.ImageDescription>
+            <S.ImageParagraph>{sectionContent.imgDescription}</S.ImageParagraph>
+            <Link href="mailto:lordVoldemort@example.com">
+              <a>lordVoldemort@example.com</a>
+            </Link>
+          </S.ImageDescription>
+        </S.GreenBox>
       </S.ColumnLeft>
       <S.ColumnRight>
         <S.Message>
@@ -37,7 +32,6 @@ export const SectionMessage = () => {
           <S.MessageHead>{sectionContent.messageHeader}</S.MessageHead>
           <S.MessageContent>{sectionContent.messageContent}</S.MessageContent>
         </S.Message>
-        <S.RedBox />
       </S.ColumnRight>
     </S.GridContainer>
   );

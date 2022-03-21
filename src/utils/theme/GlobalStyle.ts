@@ -1,15 +1,12 @@
-import { createGlobalStyle } from 'styled-components';
-import reset from 'styled-reset';
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
 
 export const GlobalStyle = createGlobalStyle`
   ${reset}
 
   @font-face {
     font-family: 'Mercury G2';
-    src: local('Mercury G2'), local('MercuryG2'),
-    url("/fonts/MercuryG2.otf") format('opentype');
-    font-weight: 400;
-    font-style: normal;
+    src: url("/fonts/MercuryG2.otf");
   }
 
   @font-face {
@@ -32,11 +29,6 @@ export const GlobalStyle = createGlobalStyle`
     src: url("/fonts/IdealSans-Thin.otf")
   }
 
-  @font-face {
-    font-family: 'Helvetica';
-    src: url("/fonts/Helvetica.ttf")
-  }
-
   *,
   &::before,
   &::after {
@@ -46,5 +38,9 @@ export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     font-family: "Ideal Sans Light", sans-serif;
+
+    &.is-hidden  {
+      overflow: hidden;
+    }
   }
 `;
