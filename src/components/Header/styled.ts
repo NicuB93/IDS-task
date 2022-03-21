@@ -100,6 +100,7 @@ export const SmoothLink = styled(Link)<NavProps>`
   color: #000;
   transition: color 0.25s ease-in-out;
   text-decoration: none;
+  cursor: pointer;
 
   @media (max-width: 1200px) {
     font-size: 14px;
