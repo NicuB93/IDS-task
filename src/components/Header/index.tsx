@@ -29,7 +29,7 @@ export const Header: FC<Props> = ({ data }) => {
       to={href}
       smooth
       hashSpy
-      onClick={() => setMobileNav(!mobileNav)}
+      onClick={() => setMobileNav(false)}
       ismobileactive={mobileNav ? mobileNav : undefined}
     >
       {title}
