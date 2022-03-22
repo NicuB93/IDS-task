@@ -59,7 +59,7 @@ export const SpaceContent = styled.div`
     padding-left: 0;
     background-color: transparent;
     color: ${({ theme }) => theme.colors.pink};
-    font-family: "Ideal Sans Medium";
+    font-family: "Ideal Sans";
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2px;

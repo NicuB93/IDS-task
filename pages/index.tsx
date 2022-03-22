@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+import type { NextPage, GetServerSidePropsContext } from "next";
 import Head from "next/head";
 import { MainPage } from "../src/components/Main";
 

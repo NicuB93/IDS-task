@@ -29,7 +29,7 @@ export const SwiperWrapper = styled.div`
     padding-top: 85px;
     padding-bottom: 115px;
 
-    & :after {
+    &::after {
       content: "";
       position: absolute;
       height: 1px;
@@ -54,11 +54,12 @@ export const SwiperWrapper = styled.div`
       position: relative;
       color: white;
       top: 25px;
-      font-family: "Ideal Sans Light";
+      font-family: "Ideal Sans";
+      font-weight: 300;
       font-style: italic;
       font-size: 18px;
 
-      & :before {
+      &::before {
         content: "";
         width: 12px;
         height: 12px;
@@ -69,7 +70,7 @@ export const SwiperWrapper = styled.div`
         opacity: 0;
       }
 
-      &:after {
+      &::after {
         content: "";
         width: 12px;
         height: 12px;
@@ -82,11 +83,11 @@ export const SwiperWrapper = styled.div`
     }
 
     .bullet-active {
-      &:after {
+      &::after {
         content: "";
         background: ${({ theme }) => theme.colors.pink};
       }
-      &:before {
+      &::before {
         background: ${({ theme }) => theme.colors.pink};
         width: 32px;
         height: 32px;
@@ -134,7 +135,8 @@ export const SlideTitle = styled.h3`
 `;
 
 export const ShortDescription = styled.h5`
-  font-family: "Ideal Sans Light";
+  font-family: "Ideal Sans";
+  font-weight: 300;
   font-size: 24px;
   line-height: 28px;
   font-style: italic;
@@ -143,7 +145,8 @@ export const ShortDescription = styled.h5`
 export const ParagraphContainer = styled.div``;
 
 export const ParagraphTitle = styled.h6`
-  font-family: "Ideal Sans Medium";
+  font-family: "Ideal Sans";
+  font-weight: 500;
   font-size: 18px;
   line-height: 27px;
 `;

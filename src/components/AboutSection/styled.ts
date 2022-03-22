@@ -58,7 +58,8 @@ export const About = styled.div`
 `;
 
 export const AboutHead = styled.h6`
-  font-family: "Ideal Sans Light";
+  font-family: "Ideal Sans";
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   padding-top: 5rem;
@@ -69,7 +70,8 @@ export const AboutHead = styled.h6`
 `;
 
 export const AboutTitle = styled.h3`
-  font-family: "Ideal Sans Light";
+  font-family: "Ideal Sans";
+  font-weight: 300;
   font-size: 32px;
   line-height: 40px;
 

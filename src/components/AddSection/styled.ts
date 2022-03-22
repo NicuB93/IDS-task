@@ -51,7 +51,8 @@ export const ShowButton = styled.button<ButtonProps>`
 export const AddSectionParagraph = styled.p`
   margin: 0;
   margin-top: 5px;
-  font-family: "Ideal Sans Light";
+  font-family: "Ideal Sans";
+  font-weight: 300;
   font-style: italic;
   font-size: 18px;
   line-height: 27px;

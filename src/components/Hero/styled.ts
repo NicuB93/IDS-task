@@ -49,7 +49,8 @@ export const ColumnLeft = styled.div`
 `;
 
 export const HeadTitle = styled.h1`
-  font-family: "Ideal Sans Medium";
+  font-family: "Ideal Sans";
+  font-weight: 500;
   font-size: 70px;
   line-height: 75px;
   width: 60%;
@@ -74,6 +75,7 @@ export const HeadDescription = styled.p`
 
 export const HeadMotto = styled.p`
   font-size: 24px;
+  font-weight: 300;
   line-height: 28px;
   font-style: italic;
 

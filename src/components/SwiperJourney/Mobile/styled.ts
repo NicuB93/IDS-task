@@ -28,7 +28,7 @@ export const Years = styled.div`
   }
 
   .years {
-    font-family: "Ideal Sans Light";
+    font-family: "Ideal Sans";
     font-size: 16px;
     line-height: 24px;
   }

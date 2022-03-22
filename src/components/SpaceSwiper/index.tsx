@@ -14,7 +14,6 @@ import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
 import * as S from "./styled";
-import { strictEqual } from "assert";
 
 type SwiperData = {
   data: {

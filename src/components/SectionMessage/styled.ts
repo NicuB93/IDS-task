@@ -68,7 +68,8 @@ export const ImageTitle = styled.h5`
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
-  font-family: "Ideal Sans Medium";
+  font-family: "Ideal Sans";
+  font-family: 500;
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 20px;
@@ -82,7 +83,8 @@ export const ImageDescription = styled.div`
   gap: 1rem;
 
   a {
-    font-family: "Ideal Sans Thin";
+    font-family: "Ideal Sans";
+    font-weight: 500;
     text-decoration: none;
     color: ${({ theme }) => theme.colors.white};
   }
@@ -143,7 +145,8 @@ export const Message = styled.div`
 export const MessageTitle = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
   font-size: 50px;
-  font-family: "Ideal Sans Medium";
+  font-family: "Ideal Sans";
+  font-weight: 500;
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 30px;
@@ -165,7 +168,8 @@ export const MessageHead = styled.p`
 export const MessageContent = styled.p`
   font-size: 18px;
   line-height: 27px;
-  font-family: "Ideal Sans Light";
+  font-family: "Ideal Sans";
+  font-weight: 300;
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 16px;

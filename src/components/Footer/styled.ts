@@ -55,13 +55,14 @@ export const ColumnContainer = styled.div`
 `;
 
 export const Head = styled.h2`
-  font-family: "Ideal Sans Light";
+  font-family: "Ideal Sans";
   font-size: 28px;
   line-height: 42px;
 `;
 
 export const Content = styled.p`
-  font-family: "Ideal Sans Thin";
+  font-family: "Ideal Sans";
+  font-weight: 100;
   font-size: 18px;
   line-height: 27px;
 
@@ -69,7 +70,8 @@ export const Content = styled.p`
 `;
 
 export const Copyright = styled.p`
-  font-family: "Ideal Sans Thin";
+  font-family: "Ideal Sans";
+  font-weight: 100;
   font-size: 18px;
   line-height: 27px;
 `;

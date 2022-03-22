@@ -80,7 +80,7 @@ export const PeeHead = styled.h1`
   line-height: 60px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-family: "Ideal Sans Light";
+    font-family: "Ideal Sans";
     font-style: italic;
     font-size: 30px;
     line-height: 36px;
@@ -94,7 +94,8 @@ export const PeeDescription = styled.p`
   font-weight: 300;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-family: "Ideal Sans Light";
+    font-family: "Ideal Sans";
+    font-weight: 300;
     font-size: 16px;
     line-height: 24px;
   }

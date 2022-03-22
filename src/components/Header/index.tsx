@@ -10,7 +10,7 @@ import * as S from "./styled";
 export const Header: FC<Props> = ({ data }) => {
   const [mobileNav, setMobileNav] = useState<boolean>(false);
   const isPinned = useHeadroom({
-    fixAt: 62,
+    fixAt: 72,
   });
 
   const mobileNavHandler = (element: boolean) => {
@@ -37,24 +37,16 @@ export const Header: FC<Props> = ({ data }) => {
   ));
 
   return (
-    <>
-      <S.Header isPinned={isPinned}>
-        <S.Container>
-          <SvgLogo />
-          <S.Nav>{links}</S.Nav>
-          <Button content="DOWNLOAD PDF" />
-          <CloseButton
-            isMobileActive={mobileNav}
-            mobileNav={mobileNavHandler}
-          />
-        </S.Container>
-      </S.Header>
-      <S.MobileNav>
+    <S.Header isPinned={isPinned}>
+      <S.Container>
+        <SvgLogo />
         <S.Nav isMobileActive={mobileNav}>
           {links}
           <Button content="DOWNLOAD PDF" />
         </S.Nav>
-      </S.MobileNav>
-    </>
+        <Button content="DOWNLOAD PDF" />
+        <CloseButton isMobileActive={mobileNav} mobileNav={mobileNavHandler} />
+      </S.Container>
+    </S.Header>
   );
 };

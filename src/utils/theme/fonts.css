@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Ideal Sans";
+  src: url("/fonts/IdealSans-Medium.woff2") format("woff2"),
+    url("/fonts/IdealSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ideal Sans";
+  src: url("/fonts/IdealSans-Light.woff2") format("woff2"),
+    url("/fonts/IdealSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ideal Sans";
+  src: url("/fonts/IdealSans-Black.woff2") format("woff2"),
+    url("/fonts/IdealSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ideal Sans";
+  src: url("/fonts/IdealSans-Thin.woff2") format("woff2"),
+    url("/fonts/IdealSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mercury G2";
+  src: url("/fonts/MercuryTextG2-Roman.woff2") format("woff2"),
+    url("/fonts/MercuryTextG2-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

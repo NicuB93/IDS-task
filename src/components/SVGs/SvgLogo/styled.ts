@@ -7,6 +7,6 @@ export const SVGLogo = styled.svg`
 
   @media (max-width: 1200px) {
     height: 52px;
-    width: fit-content;
+    width: 80px;
   }
 `;

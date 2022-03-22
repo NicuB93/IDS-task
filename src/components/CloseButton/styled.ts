@@ -24,7 +24,6 @@ export const Button = styled.button<CustomProps>`
 
   .burger {
     position: absolute;
-    filter: url(#gooeyness);
   }
   .x {
     transform: scale(0);

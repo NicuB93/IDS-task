@@ -63,6 +63,10 @@ export const Nav = styled.nav<HeaderProps>`
   padding-right: 187px;
   column-gap: 120px;
 
+  .button {
+    display: none;
+  }
+
   ${() => fluidValue("column-gap", 120, 20, 1680, 1024)};
   ${() => fluidValue("padding-right", 187, 40, 1680, 1024)};
 
@@ -76,14 +80,17 @@ export const Nav = styled.nav<HeaderProps>`
     height: 100vh;
     padding: 50px 36px;
     position: fixed;
-    top: 63px;
+    top: 73px;
+    left: 0;
     background-color: ${({ theme }) => theme.colors.white};
     z-index: 999;
+    overflow-y: scroll;
 
     opacity: ${(props) => (!props.isMobileActive ? 0 : 1)};
     visibility: ${(props) => (!props.isMobileActive ? "hidden" : "visible")};
 
     .button {
+      display: block;
       margin-top: 50px;
       transition: opacity 1s ease;
       opacity: ${(props) => (!props.isMobileActive ? 0 : 1)};
